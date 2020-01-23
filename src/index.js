@@ -20,7 +20,7 @@ const store = createStore(rootReducers, applyMiddleware(thunkMiddleware, logger)
 
 ReactDOM.render(
   <Provider store={store}>
-    <App/>
+    <App />
   </Provider>,
   document.getElementById('root')
 );
